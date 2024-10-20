@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ConteudoLateral {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 100vh;
+  background-color: rgb(33, 28, 41);
+  padding: 20px;
+  align-items: start;
+  max-width: 25%;
+  position: fixed;
+
+}
+
+.logo {
+  width: 50px;
+}
+.Listaitem{
+  display: flex;
+  align-items: center;
+}
+.configu{
+  margin-top: auto;
+}
+
+.menuLateral {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 20px;
+  transition: opacity 0.3s;
+  width: auto;
+
+}
+body{
+  background-color: rgb(33, 28, 41);
+}
+
+.menuLateral li {
+  margin-bottom: 10px;
+  transition: opacity 0.3s;
+  cursor: pointer;
+}
+.menuLateral li:hover{
+  opacity: 1 ;
+}
+.menuLateral li:not(:hover) {
+  opacity: 0.5;
+}
+.Layout{
+  flex: 1;
+  overflow-y: auto;
+}
+.App{
+  display: flex;
+  height: 100vh;
+}

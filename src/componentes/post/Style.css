@@ -1,0 +1,94 @@
+header{
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    justify-content: space-between;
+    color: aliceblue;
+    font-weight: 600;
+    font-family: "Sen", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+header img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+.infos-post{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.img-post img{
+    width: 100%;
+    object-fit: cover;
+}
+.footer-post{
+    padding: 15px 15px;
+}
+.engagement-post{
+    display: flex;
+    justify-content: space-between;
+}.engagement-post .icons{
+    display: flex;
+    gap: 16px;
+}
+.icon{
+    cursor: pointer;
+    color: aliceblue;
+}
+.Like{
+    margin-top: 6px;
+}
+.Like span{
+    font-size: 15px;
+    font-weight: 500;
+}
+.Legend{
+    margin: 6px 0 3px;
+}
+.Legend p span{
+    font-weight: 500;   
+}
+p{
+    color: aliceblue;
+}
+.time-post time{
+    font-size: 11px;
+    color:  rgb(169, 172, 174);
+}
+.comment{
+    border-top: 1px solid (var--border-secondary);
+    margin-top: 8px;
+    display: flex;
+}
+.fake-comment{
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    gap: 16px;
+}
+.fake-comment input{
+    font-size: 16px;
+    background-color:  rgb(29, 25, 34);
+    color: aliceblue;
+    border: 0px;
+}
+.comment button{
+    color: var(--quartary);
+    background-color:  rgb(29, 25, 34);
+    color: aliceblue;
+    border: 0px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.fake-comment input::placeholder{
+    opacity: 1;
+}
+.icon1{
+    color: aliceblue;
+}

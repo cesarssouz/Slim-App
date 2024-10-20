@@ -1,0 +1,22 @@
+.texto-do-menu {
+    font-family: "Sen", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    padding-left: 10px;
+    align-items: center;
+    color: aliceblue;
+}
+.icone-do-menu{
+    font-size: 24px;
+    color: aliceblue;
+}
+h1{
+    color: aliceblue;
+}
+li{
+    padding: 5px;
+}
+.configu{
+    margin-top: auto;
+}

@@ -1,0 +1,93 @@
+.header-sugestao{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+.header-sugestao img{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+}
+.user-info-sugestao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.user-info-sugestao .infos span{
+    font-size: 15px;
+    font-weight: 600;
+    
+
+}
+.user-info-sugestao .infos .nome-segundo{
+    font-size: 12px;
+    opacity: 30%;
+    margin-top: 5px;
+}
+
+
+.infos{
+    display: flex;
+    flex-direction: column;
+}
+.header-sugestao .botao-de-trocar{
+    margin-left: auto;
+    cursor: pointer;
+    margin-top: -15px;
+    font-weight: 500;
+    color: rgb(67, 202, 255);
+}
+.botao-de-trocar{
+    transition: color 0.3s, transform 0.3 ease;
+}
+.botao-de-trocar:hover{
+    color: aliceblue;
+    transform: scale(1.1);
+}
+.sugestao-ver{
+    display: flex;
+   justify-content: space-between;
+   margin: 20px 0 10px 0;
+   font-weight: 500;
+   
+}
+.sugestao-ver p{
+    margin-left: 5px;
+}
+.user-sugestion {
+    margin-top: 10px;
+}
+
+.infos-sugestion {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 10px;
+}
+
+.infos-sugestion img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.info-user {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.follow {
+    margin-left: auto;
+    cursor: pointer;
+    color: rgb(67, 202, 255);
+    transition: color 0.3s, transform 0.3 ease;
+}
+.follow:hover{
+    color: aliceblue;
+    transform: scale(1.1);
+}
