@@ -1,6 +1,5 @@
 import Lista from './Lista';
 import './Lista.css';
-import logoslim from '../imgs/logoslim.png';
 import { FaHouse } from "react-icons/fa6";
 import { IoMdSearch } from "react-icons/io";
 import { FiMessageCircle } from "react-icons/fi";

@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import ConteudoLateral from './componentes/ConteudoLateral';
 import { Layout } from './componentes/layout/Index';
