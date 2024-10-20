@@ -1,11 +1,11 @@
 import Lista from './Lista';
 import './Lista.css';
-import { FaHouse } from "react-icons/fa6";
+import { FaHouse } from "react-icons/fa";
 import { IoMdSearch } from "react-icons/io";
 import { FiMessageCircle } from "react-icons/fi";
 import { FaRegHeart } from "react-icons/fa";
 import { CgAddR } from "react-icons/cg";
-import { FaGear } from "react-icons/fa6";
+import { FaGear } from "react-icons/fa";
 
 export default function ConteudoLateral() {
     return (
